@@ -86,10 +86,16 @@ https://yourapp.com      → Your actual website
 support@yourapp.com      → Your support email
 ```
 
-### 4. Firebase Configuration
+### 4. Firebase Configuration (Optional)
 
-1. Replace `GoogleService-Info.plist` with your Firebase project's config file
-2. Update `ios/Firebase/functions/.firebaserc` with your project ID
+Skip this section if using Local Mode (`useFirebase = false`).
+
+1. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
+2. Enable **Authentication** → Sign-in method → Apple + Google
+3. Enable **Firestore Database** (start in test mode, then add security rules)
+4. Download `GoogleService-Info.plist` from Project Settings → Your Apps → iOS
+5. Add `GoogleService-Info.plist` to your Xcode project (drag into `ios/Sources/` folder, check "Copy items if needed")
+6. Update `firebase-functions/.firebaserc` with your project ID
 
 ---
 
@@ -103,7 +109,7 @@ The streak system is **backend-driven**:
 
 ### Customizing Streak Behavior
 
-Edit `ios/Firebase/functions/index.ts`:
+Edit `firebase-functions/functions/src/index.ts`:
 
 #### Change reminder time
 ```typescript
