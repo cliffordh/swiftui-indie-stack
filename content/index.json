@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-01-01T00:00:00Z",
+  "articles": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "summary": "Your production-ready iOS app template with offline-first architecture.",
+      "category": "getting_started",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/welcome.md",
+      "imageURL": null,
+      "featured": true,
+      "version": "1.0"
+    },
+    {
+      "id": "quick-start",
+      "title": "Quick Start Guide",
+      "summary": "Get your app running in minutes with this step-by-step guide.",
+      "category": "getting_started",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/quick-start.md",
+      "imageURL": null,
+      "featured": true,
+      "version": "1.0"
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture Overview",
+      "summary": "Understand the offline-first architecture and when to enable Firebase.",
+      "category": "features",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/architecture.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "subscriptions",
+      "title": "RevenueCat Subscriptions",
+      "summary": "How to set up and customize in-app purchases with RevenueCat.",
+      "category": "features",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/subscriptions.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "streaks",
+      "title": "Streak System",
+      "summary": "Engage users with the built-in streak tracking and gamification.",
+      "category": "features",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/streaks.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "widgets",
+      "title": "Home Screen Widgets",
+      "summary": "Configure and customize the included home screen and lock screen widgets.",
+      "category": "features",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/widgets.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "library-cms",
+      "title": "Library CMS System",
+      "summary": "How to manage and publish content through the GitHub-based CMS.",
+      "category": "features",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/library-cms.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "customization",
+      "title": "Customization Tips",
+      "summary": "Best practices for branding and customizing the template for your app.",
+      "category": "tips",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/customization.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    },
+    {
+      "id": "support",
+      "title": "Getting Help",
+      "summary": "Resources and support options for SwiftUI Indie Stack users.",
+      "category": "support",
+      "publishDate": "2025-01-01T00:00:00Z",
+      "expiryDate": null,
+      "contentURL": "https://raw.githubusercontent.com/cliffordh/swiftui-indie-stack/main/content/articles/support.md",
+      "imageURL": null,
+      "featured": false,
+      "version": "1.0"
+    }
+  ]
+}

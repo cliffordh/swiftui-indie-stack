@@ -1,0 +1,81 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Carthage (if used)
+Carthage/Build/
+Carthage/Checkouts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Node.js (Firebase Functions)
+node_modules/
+npm-debug.log
+yarn-error.log
+firebase-functions/functions/lib/
+
+# Firebase
+.firebase/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# AI Assistant configs (keep project-agnostic)
+CLAUDE.md
+.claude/
+.cursor/
+.aider/
+
+# Build artifacts
+build/
+*.app
+*.framework
+*.dylib
+*.a
+
+# Test artifacts
+*.xcresult
+coverage/
+
+# Archives
+*.xcarchive
+
+# Secrets (never commit)
+*.pem
+*.p12
+*.p8
+secrets/
+credentials/
