@@ -13,9 +13,9 @@ This document explains the patterns and structure of SwiftUI Indie Stack. Follow
 
 ---
 
-## Architecture Pattern: MVVM
+## Design Pattern: MVVM
 
-This project uses **MVVM (Model-View-ViewModel)**, the most common architecture pattern for SwiftUI applications.
+This project uses **MVVM (Model-View-ViewModel)**, the most common design pattern for SwiftUI applications.
 
 ### Why MVVM?
 
